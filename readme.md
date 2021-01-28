@@ -6,3 +6,4 @@
 - [D4.Factory工厂模式](document/D4.Factory工厂模式.md)
 - [D5.ABSFactory抽象工厂模式](document/D5.ABSFactory抽象工厂模式.md)
 - [D6.Command命令模式](document/D6.Command命令模式.md)
+- [D7.Adapter适配器模式](document/D7.Adapter适配器模式.md)

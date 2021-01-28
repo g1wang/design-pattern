@@ -10,7 +10,7 @@ public class CoffeeMaker {
         this.type = type;
     }
 
-    public void make(){
-        System.out.println(type+":---------xxxxxxxxxxxx--------");
+    public void make() {
+        System.out.println(type + ":---------xxxxxxxxxxxx--------");
     }
 }
