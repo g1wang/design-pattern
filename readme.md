@@ -10,3 +10,4 @@
 - [D8.template模板方法模式](document/D8.template模板方法模式.md)
 - [D9.state状态模式](document/D9.state状态模式.md)
 - [D10.Proxy代理模式](document/D10.Proxy代理模式.md)
+- [D11.builder建造者模式](document/D11.builder建造者模式.md)
