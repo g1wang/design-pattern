@@ -28,7 +28,8 @@
 - [D10.Proxy代理模式](document/D10.Proxy代理模式.md)
 - [D19.Bridge桥接模式](document/D19.Bridge桥接模式.md)
 - [D21.Composite组合模式](document/D21.Composite组合模式.md)
-- [D22.facade外观模式.md](document/D22.facade外观模式.md)
+- [D22.facade外观模式](document/D22.facade外观模式.md)
+- [D23.Flyweight享元模式](document/D23.Flyweight享元模式.md)
 
 
 
