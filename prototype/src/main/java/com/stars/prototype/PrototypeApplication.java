@@ -35,9 +35,11 @@ public class PrototypeApplication {
         ByteArrayOutputStream bos = new ByteArrayOutputStream();
         ObjectOutputStream oos = new ObjectOutputStream(bos);
         oos.writeObject(coffeeMakerS);
+        oos.close();
         ByteArrayInputStream bis = new ByteArrayInputStream(bos.toByteArray());
         ObjectInputStream ois = new ObjectInputStream(bis);
         CoffeeMakerS cMakerSDeep = (CoffeeMakerS) ois.readObject();
+        ois.close();
         cMakerSDeep.getCoffeeS().setType("obj DEEP");
         System.out.println("coffeeMakerProto:"+coffeeMakerS.getCoffeeS().getType());
         System.out.println("coffeeMakerDeep:"+cMakerSDeep.getCoffeeS().getType());
